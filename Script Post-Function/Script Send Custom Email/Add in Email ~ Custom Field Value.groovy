@@ -1,0 +1,2 @@
+<% out << (issue?.getCustomFieldValue(com.atlassian.jira.component.ComponentAccessor.getCustomFieldManager()?.getCustomFieldObjectByName("Email")) != null ?
+issue?.getCustomFieldValue(com.atlassian.jira.component.ComponentAccessor.getCustomFieldManager()?.getCustomFieldObjectByName("Email")) : "MSG: it's NONE") %>
